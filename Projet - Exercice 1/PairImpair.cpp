@@ -1,4 +1,4 @@
-// But: Trier les nombres pair/Impair 
+// KM : Trier ??? But: Trier les nombres pair/Impair 
 // Auteur: Julien Lajoie
 // Date: 2020-09-13
 
@@ -9,17 +9,17 @@ void main()
 {
 	setlocale(LC_ALL, "");
 
-	// Déclarer la variable :
+	// DÃ©clarer la variable :
 	int nb1;
 
 	// Lancer une discution avec l'utilisateur
 	std::cout << "Veuillez entrer un nombre entier :";
 
-	// Ajouter ceci pour lire la réponse de l'utilisateur
+	// Ajouter ceci pour lire la rÃ©ponse de l'utilisateur
 	std::cin >> nb1;
 
-	// On entre cette commande pour vérifier dans quel catégorie le nombre se situe
-
+	// FR : On entre cette commande pour vÃ©rifier dans quel catÃ©gorie le nombre se situe
+	// KM : Le commentaire n'explique pas vraiment le calcul, pourquoi avoir recours au modulo ?
 	if (nb1 % 2 == 1) 
 	{
 		std::cout << nb1 << " est un nombre impair";
@@ -31,15 +31,15 @@ void main()
 	/*
 		Grille de Test
 
-		12 Réponse = 12 est un nombre pair
+		12 RÃ©ponse = 12 est un nombre pair
 
-		227 Réponse = 227 est un nombre impair
+		227 RÃ©ponse = 227 est un nombre impair
 
-		145354 Réponse = 145354 est un nombre pair
+		145354 RÃ©ponse = 145354 est un nombre pair
 
-		737271 Réponse 737271 est un nombre impair
+		737271 RÃ©ponse 737271 est un nombre impair
 	*/
-	// Tous fonctionne :)
+	// FR : Tous fonctionne :)
 
 
 

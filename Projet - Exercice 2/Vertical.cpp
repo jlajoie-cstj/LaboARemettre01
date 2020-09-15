@@ -1,6 +1,6 @@
-//But : 
+//But : KM : A compl√©ter
 
-// Auteur :
+// Auteur : KM : A compl√©ter
 
 // Date : 2020-09-13
 
@@ -10,13 +10,13 @@ int main()
 {
 	setlocale(LC_ALL, "");
 
-	// DÈclaration des variables
+	// D√©claration des variables
 	int entier;
 
-	std::cout << "Veuillez entrer un entier ‡ 5 chiffres : ";
+	std::cout << "Veuillez entrer un entier √† 5 chiffres : ";
 	std::cin >> entier;
 
-	// On vÈrifie que le nombre a bien 5 chiffres. On commence par les cas qui ne fonctionnent pas
+	// On v√©rifie que le nombre a bien 5 chiffres. On commence par les cas qui ne fonctionnent pas
 	if (entier < 10000)
 	{
 		std::cout << entier << " ne contient pas 5 chiffres .";
@@ -30,12 +30,12 @@ int main()
 		}
 		else
 		{
-			std::cout << entier << " est bien un nombre ‡ 5 chiffres.";
+			std::cout << entier << " est bien un nombre √† 5 chiffres.";
 		}
 	}
 
 	// Si on est ici dans le code, alors le nombre a bien 5 chiffres
-	// On peut le dÈcomposer
+	// On peut le d√©composer
 	// 12345 : 1 * 10 000
 	std::cout << std::endl << entier / 10000;
 	std::cout << std::endl << entier % 10000 / 1000;
